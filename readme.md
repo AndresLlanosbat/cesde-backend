@@ -20,8 +20,8 @@ Este es un proyecto backend desarrollado en **Java (Spring Boot)** para gestiona
 ## Instalación y Ejecución
 ### 1. Clonar el repositorio
 ```bash
-    git clone https://github.com/tu_usuario/tu_repositorio.git
-    cd tu_repositorio
+    git clone https://github.com/AndresLlanosbat/cesde-backend.git
+    cd cesde-backend
 ```
 
 ### 2. Configurar Base de Datos
@@ -56,10 +56,12 @@ La API estará disponible en: `http://localhost:8080`
 | DELETE | `/api/cursos/{id}` | Eliminar un curso |
 
 ### **Docentes**
-| Método | Endpoint | Descripción |
-|--------|---------|-------------|
-| GET | `/api/docentes` | Listar todos los docentes |
-| POST | `/api/docentes` | Crear un docente |
+| Método | Endpoint | Descripción               |
+|--------|---------|---------------------------|
+| GET    | `/api/docentes` | Listar todos los docentes |
+| POST   | `/api/docentes` | Crear un docente          |
+| PUT    | `/api/docentes` | Actualiar un docente      |
+| DELETE | `/api/docentes` | Eliminar un docente       |
 
 ---
 
